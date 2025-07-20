@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zara College of Distance Education</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+    }
+    header {
+      background-color: #1a73e8;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    nav {
+      background-color: #1565c0;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #e3f2fd;
+    }
+    .hero h1 {
+      font-size: 32px;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .courses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+    .course {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 280px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: 0.3s;
+    }
+    .course:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .course h3 {
+      color: #1a237e;
+      margin-bottom: 10px;
+    }
+    .course p {
+      font-size: 15px;
+      color: #444;
+    }
+    .contact {
+      background-color: #e8f0fe;
+      padding: 30px;
+      text-align: center;
+    }
+    .contact h2 {
+      margin-bottom: 10px;
+      color: #0b3d91;
+    }
+    .contact p {
+      font-size: 16px;
+    }
+    footer {
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .courses {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" alt="Zara College Logo">
+    <h1>Zara College of Distance Education</h1>
+    <p>Recognized by the Government of Telangana</p>
+  </header>
+
+  <nav>
+    <a href="about.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Learn at Your Own Pace</h1>
+    <p>Admissions open for Open 10th, Intermediate, and Degree Programs in Telugu, English & Urdu Mediums.</p>
+  </section>
+
+  <section class="courses">
+    <div class="course">
+      <h3>Open 10th</h3>
+      <p>Available in all mediums. Flexible learning for working professionals, dropouts & homemakers.</p>
+    </div>
+    <div class="course">
+      <h3>Intermediate (Open)</h3>
+      <p>Finish your 12th from home. Special guidance in English, Telugu & Urdu mediums.</p>
+    </div>
+    <div class="course">
+      <h3>Degree (BA, B.Com, B.Sc)</h3>
+      <p>UG programs with flexible mode of learning under State Govt recognized institutions.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91 98484 12323, +91 85209 36861<br>
+    🏠 kodad, Telangana<br>
+    📧 zaracollege@email.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Zara College of Distance Education | All rights reserved.
+  </footer>
+
+</body>
+</html>
